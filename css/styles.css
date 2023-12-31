@@ -65,7 +65,8 @@ address {
 
 .header-container {
     width: 1158px;
-    padding: 24px 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     display: flex;
     align-items: center;
 }
@@ -74,6 +75,8 @@ address {
     display: flex;
     margin: 0 auto;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -155,7 +158,7 @@ address {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-left: 472px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     padding-right: 472px;
 }
 
@@ -182,7 +185,8 @@ address {
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-        display: flex;
+        display: block;
+        min-width: 169px;
         padding: 16px 32px;
         border: none;
         margin: 0 auto;
@@ -368,7 +372,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: flex;
     margin-bottom: 16px;
 }
 
