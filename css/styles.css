@@ -33,6 +33,7 @@ address {
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15;
 }
 
 .link {
@@ -63,8 +64,7 @@ address {
 
 .header-container {
     width: 1158px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 15px;
     display: flex;
     align-items: center;
 }
@@ -72,6 +72,7 @@ address {
 .header-navigation {
     display: flex;
     margin: 0 auto;
+    align-items: center;
 }
 
 .header-logo {
