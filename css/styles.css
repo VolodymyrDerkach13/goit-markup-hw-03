@@ -65,8 +65,6 @@ address {
 
 .header-container {
     width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
