@@ -76,8 +76,6 @@ address {
 }
 
 .header-logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -103,11 +101,11 @@ address {
     gap: 40px;
     margin: 0 auto;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-item {
+    padding-bottom: 24px;
+    padding-top: 24px;
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 16px;
         font-weight: 500;
