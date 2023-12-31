@@ -62,15 +62,16 @@ address {
 }
 
 .header-container {
+    width: 1158px;
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
+    align-items: center;
 }
 
 .header-navigation {
     display: flex;
     margin: 0 auto;
-    align-items: center;
 }
 
 .header-logo {
